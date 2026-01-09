@@ -4,6 +4,7 @@
 *.pyc
 *.swp
 .DS_Store
+~$*.docx
 .atom/
 .buildlog/
 .history
