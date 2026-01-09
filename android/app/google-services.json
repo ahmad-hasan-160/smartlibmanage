@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "395555188336",
+    "project_id": "smartlibmanage-a8e44",
+    "storage_bucket": "smartlibmanage-a8e44.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395555188336:android:29b9c170b1ab0c69b24eb5",
+        "android_client_info": {
+          "package_name": "com.example.smartlibmanage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHTgCnnsi30Lc2NGH2qjqcahNBjKftZxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
