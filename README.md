@@ -1,21 +1,24 @@
 # SmartLibManage
 
-A Flutter-based library management system for Android.
+A Flutter-based Smart Library Management System for Android.
 
 ## Features
 
-- User authentication with Firebase
-- Book inventory management
-- Borrowing and returning books
-- QR code scanning for returns
-- Real-time notifications
-- Separate dashboards for students and librarians
+- User authentication with Firebase (role-based: Admin/Student/Teacher)
+- Book catalog with search functionality
+- Book inventory management (Add/Edit/Delete)
+- Borrowing and returning workflow with admin approval
+- Real-time notifications for due dates
+- Separate dashboards for Admin and Members
 
 ## Setup
 
 1. Install Flutter: https://flutter.dev/docs/get-started/install
 
-2. Clone or download the project.
+2. Clone the repository:
+   ```
+   git clone https://github.com/ahmad-hasan-160/smartlibmanage.git
+   ```
 
 3. Set up Firebase:
    - Create a Firebase project at https://console.firebase.google.com/
@@ -43,11 +46,15 @@ A Flutter-based library management system for Android.
 
 ## Usage
 
-- Librarians can add/edit books, manage inventory.
-- Students can search books, borrow, and return via QR scan.
+- **Admin:** Add/edit/delete books, approve borrow/return requests, manage users
+- **Students/Teachers:** Browse catalog, search books, request borrow/return
 
 ## Technologies
 
-- Flutter
-- Firebase (Auth, Firestore, Messaging)
+- Flutter & Dart
+- Firebase (Auth, Firestore, Cloud Messaging)
 - Provider for state management
+
+## Repository
+
+https://github.com/ahmad-hasan-160/smartlibmanage
