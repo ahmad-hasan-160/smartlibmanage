@@ -51,4 +51,3 @@ A Flutter-based library management system for Android.
 - Flutter
 - Firebase (Auth, Firestore, Messaging)
 - Provider for state management
-- QR Code Scanner
